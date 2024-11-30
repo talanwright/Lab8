@@ -152,7 +152,9 @@ def startGame():
 def save_player_stats():
     fileOut = open("stats.txt", "w")
     fileOut.write(f"Name: {player['name']}\n")
+    fileOut.write("$$$$$$$$$$$$$$$$$\n")
     fileOut.write("Stats:\n")
+    fileOut.write("$$$$$$$$$$$$$$$$$\n")
     for key, value in player["stats"].items():
         fileOut.write(f"{key}: {value}\n")
     

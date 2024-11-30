@@ -1,8 +1,10 @@
 Name: Talan
+$$$$$$$$$$$$$$$$$
 Stats:
-str: 16
-dex: 11
-cons: 15
-int: 12
-char: 18
-weight: 240
+$$$$$$$$$$$$$$$$$
+str: 13
+dex: 15
+cons: 12
+int: 9
+char: 15
+weight: 195
