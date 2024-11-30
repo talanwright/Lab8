@@ -154,8 +154,8 @@ def save_player_stats():
     fileOut.write(f"Name: {player['name']}\n")
     fileOut.write("Stats:\n")
     for key, value in player["stats"].items():
-        fileOut.write(f"{key}: {value}")
-    #fileOut.write(f"str: {player['stats']['str']}")
+        fileOut.write(f"{key}: {value}\n")
+    
     fileOut.close()
 
 def main():

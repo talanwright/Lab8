@@ -1,3 +1,8 @@
 Name: Talan
 Stats:
-str: 17dex: 14cons: 8int: 14char: 12weight: 255
+str: 16
+dex: 11
+cons: 15
+int: 12
+char: 18
+weight: 240
