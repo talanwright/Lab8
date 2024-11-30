@@ -152,17 +152,22 @@ def startGame():
 def save_player_stats():
     fileOut = open("stats.txt", "w")
     fileOut.write("did this work")
+    fileOut.write(f"Name: {player['name']}")
+    fileOut.write("Stats:")
+    #fileOut.write(f"str: {player['stats']['str']}")
     fileOut.close()
 
 def main():
     print(castle)
-    save_player_stats()
     start_point = input("Enter your load file key or type <START> to begin: ")
 
     if start_point.upper() == "START":
         charCreation()
         input("***Hit any key to begin***")
         startGame()
+        print("player stats:")
+        showStats()
+        save_player_stats()
     else:
         print("Unavailble")
     pass
