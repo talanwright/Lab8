@@ -149,8 +149,14 @@ def startGame():
         else:
             print("Invalid input.")
 
+def save_player_stats():
+    fileOut = open("stats.txt", "w")
+    fileOut.write("did this work")
+    fileOut.close()
+
 def main():
     print(castle)
+    save_player_stats()
     start_point = input("Enter your load file key or type <START> to begin: ")
 
     if start_point.upper() == "START":
