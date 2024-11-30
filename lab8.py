@@ -159,6 +159,7 @@ def save_player_stats():
         fileOut.write(f"{key}: {value}\n")
     
     fileOut.close()
+    print("stats written to stats.txt")
 
 def main():
     print(castle)
@@ -168,7 +169,6 @@ def main():
         charCreation()
         input("***Hit any key to begin***")
         startGame()
-        print("player stats:")
         showStats()
         save_player_stats()
     else:
